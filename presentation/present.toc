@@ -1,0 +1,6 @@
+\babel@toc {french}{}\relax 
+\beamer@sectionintoc {1}{Introduction et contexte}{3}{0}{1}
+\beamer@sectionintoc {2}{Optimisation mémoire}{4}{0}{2}
+\beamer@sectionintoc {3}{Algorithme NegaScout}{7}{0}{3}
+\beamer@sectionintoc {4}{Endgame et évaluation avancée}{9}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{10}{0}{5}

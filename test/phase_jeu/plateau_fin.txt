@@ -1,0 +1,60 @@
+/* Plateau enregistré en phase fin */
+/* À utiliser dans une fonction d'initialisation */
+
+void initialiser_plateau_test_fin(Plateau *plateau) {
+    /* Initialisation du plateau vide */
+    int i, j;
+    for (i = 0; i < TAILLE_PLATEAU; i++) {
+        for (j = 0; j < TAILLE_PLATEAU; j++) {
+            plateau->cases[i][j] = VIDE;
+        }
+    }
+
+    /* Configuration spécifique phase fin */
+    plateau->cases[0][1] = NOIR;
+    plateau->cases[0][2] = NOIR;
+    plateau->cases[0][3] = NOIR;
+    plateau->cases[0][4] = NOIR;
+    plateau->cases[1][1] = NOIR;
+    plateau->cases[1][2] = NOIR;
+    plateau->cases[1][3] = NOIR;
+    plateau->cases[2][0] = BLANC;
+    plateau->cases[2][1] = NOIR;
+    plateau->cases[2][2] = NOIR;
+    plateau->cases[2][3] = NOIR;
+    plateau->cases[2][4] = NOIR;
+    plateau->cases[2][5] = NOIR;
+    plateau->cases[2][6] = NOIR;
+    plateau->cases[3][0] = BLANC;
+    plateau->cases[3][1] = BLANC;
+    plateau->cases[3][2] = BLANC;
+    plateau->cases[3][3] = BLANC;
+    plateau->cases[3][4] = BLANC;
+    plateau->cases[3][5] = NOIR;
+    plateau->cases[3][6] = NOIR;
+    plateau->cases[4][0] = BLANC;
+    plateau->cases[4][1] = NOIR;
+    plateau->cases[4][2] = BLANC;
+    plateau->cases[4][3] = NOIR;
+    plateau->cases[4][4] = BLANC;
+    plateau->cases[4][5] = NOIR;
+    plateau->cases[4][6] = NOIR;
+    plateau->cases[5][0] = BLANC;
+    plateau->cases[5][1] = NOIR;
+    plateau->cases[5][2] = NOIR;
+    plateau->cases[5][3] = BLANC;
+    plateau->cases[5][4] = BLANC;
+    plateau->cases[6][1] = NOIR;
+    plateau->cases[6][2] = NOIR;
+    plateau->cases[6][3] = NOIR;
+    plateau->cases[6][4] = BLANC;
+    plateau->cases[6][5] = NOIR;
+    plateau->cases[7][0] = BLANC;
+    plateau->cases[7][1] = BLANC;
+    plateau->cases[7][2] = BLANC;
+    plateau->cases[7][3] = BLANC;
+    plateau->cases[7][4] = BLANC;
+    plateau->cases[7][5] = BLANC;
+    plateau->cases[7][6] = BLANC;
+    plateau->cases[7][7] = BLANC;
+}
