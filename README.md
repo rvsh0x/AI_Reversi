@@ -1,4 +1,4 @@
-# Intelligence artifiielle pour le jeu Reversi
+# Intelligence artificielle pour le jeu Reversi
 
 
 Développement d'une intelligence artificielle pour le jeu Reversi en C. Utilisation d'algorithmes de recherche avancés (MinMax avec élagage alpha-beta) et d'heuristiques sophistiquées pour une prise de décision optimale.
@@ -73,4 +73,5 @@ test/test_memoire
 - LAICHE
 - GHODBANE
 - BAADACHE
+
 
